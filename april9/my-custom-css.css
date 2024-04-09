@@ -1,0 +1,86 @@
+/*
+CSS: Cascading Style Sheet
+*/
+body{
+    font-size: 20px;
+}
+/* 
+    #8ea74a  
+    8e, a7, 4a
+    142, 167, 74
+*/
+h1 {
+    text-align: center; 
+    color: #8ea74a  ; 
+    font-size: 80px;
+}
+h2 {
+    color: magenta;
+    font-family: monospace;
+
+}
+p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+strong{
+    color: brown;
+}
+h1{
+    font-size: 60px;
+}
+
+/* <para1></para1> */
+/* #para1, #para2 {
+    text-align: left;
+} */
+/* <left-aligned-para></left-aligned-para> */ 
+.left-aligned-para {
+    text-align: left;
+    border-radius: 10px;
+}
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#carimage {
+    width: 350px;
+    height: 100px;
+}
+
+#carimage2{
+    height:150px;
+}
+
+#para1{
+    margin: 20px;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: justify;
+}
+#para2{
+    margin: 10px;
+    border: 1px solid brown;
+}
+
+a{
+    color: red;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover{
+    color: blue;
+}
+
+#carimage:hover {
+    height: 300px;
+}
+#carimage2:hover {
+    height: 300px;
+}

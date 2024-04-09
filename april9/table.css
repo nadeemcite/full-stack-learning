@@ -1,0 +1,25 @@
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+table, tr, td{
+    border: 1px solid;
+}
+th{
+    font-size: 18px;
+    color:white;
+    background-color: black;
+}
+tr:nth-child(odd){
+    background-color: #ded4c3;
+}
+td{
+    padding: 3px;
+    text-align: center;
+}
+#table-para {
+    width:300px;
+}
+.fruit-image{
+    height: 80px;
+}
