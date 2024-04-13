@@ -1,0 +1,12 @@
+.custom-image{
+    background: url('images/car.png') 100% 100%;
+    height: 80px;
+}
+#car-image{
+    height: 80px
+}
+@media screen and (max-width: 400px){
+    .w-50{
+        width: 95% !important;
+    }
+}

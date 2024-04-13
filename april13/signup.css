@@ -1,0 +1,83 @@
+
+*{
+    color: #C5FF95;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 10px;
+}
+
+
+body{
+    margin: 0px;
+    background-color: #074173;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+@media print {
+    *{
+        color: black;
+    }
+    body{
+        background-color: red;
+    }
+}
+
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 5px lightgray;
+    border-radius: 4px;
+    /* background-image: url(images/bg.jpg); */
+    width: 90vw;
+}
+
+@media screen and (min-width: 400px){
+    .signup-container{
+        width: 350px;
+    }
+}
+
+@media screen and (orientation: landscape){
+    .signup-container{
+        width: 300px;
+    }
+}
+
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+input, button{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+button{
+    background-color: #5DEBD7;
+    transition: background-color 0.3s;
+    transition: box-shadow 0.3s;
+}
+
+button:hover{
+    background-color: #3c998c;
+    box-shadow: 3px 3px 5px lightgray;
+}
+
+.car-image{
+    height: 80px;
+}
+.car-image:hover{
+    height: 140px;
+}

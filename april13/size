@@ -1,0 +1,10 @@
+rem -> 16px (in context of bootstrap)
+
+p-5 -> padding from all sides 3rem 
+p-4 -> padding from all sides 1.5rem 
+p-3 -> padding from all sides 1rem 
+p-2 -> padding from all sides 0.5rem 
+p-1 -> padding from all sides 0.25rem 
+
+pb -> padding bottom
+pt -> padding top
